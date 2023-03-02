@@ -13,7 +13,6 @@ return (
          
          <h3>TOTAL: $ {totalPrice}</h3>
          {cartItems.map((cartItem, index) => <CartItem cartItem={cartItem} key={index}/>)}
-         <CartItem/>
     </div>
 )
 }
